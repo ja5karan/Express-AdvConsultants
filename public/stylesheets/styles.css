@@ -1,0 +1,134 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features{
+   text-align: center;
+}
+#features img{
+   margin: 0 0 20px
+}
+
+#inputMessage {
+   margin-bottom: 15px;
+}
+
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+   background-color: #eafdff;
+}
+
+.well .page-header{
+   margin-top: 0; 
+}
+.well .page-header h1{
+   margin-top: 0
+}
+
+ul.unstyled{
+   list-style: none;
+   padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   #searchInput {
+      width: 200px; 
+   }
+   .navbar-brand{
+      padding: 13px 15px;
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item{ height: 400px;}
+#slide1 { 
+   background: url('C:/Users/ASUS/Desktop/Express/public/images/carousel_medium_01.jpg') top left no-repeat ; 
+}
+
+#slide2 { 
+   background: url('C:/Users/ASUS/Desktop/Express/public/images/carousel_medium_02.jpg') top left no-repeat ; 
+}
+
+#slide3 { 
+   background: url('C:/Users/ASUS/Desktop/Express/public/images/carousel_medium_03.jpg') top left no-repeat ; 
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.well{
+   marg
+}
+
+.alert{
+   margin: 20px 0;
+   display: none;
+}
+
+.tabbable img.thumbnail{
+   margin: 0 20px 10px 0;
+}
+.hh{
+
+   margin:10px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item{ height: 400px;}
+   #slide1 { 
+      background: url('C:/Users/ASUS/Desktop/Express/public/images/carousel_large_01.jpg') top left no-repeat ; 
+   }
+
+   #slide2 { 
+      background: url('C:/Users/ASUS/Desktop/Express/public/images/carousel_large_02.jpg') top left no-repeat ; 
+   }
+
+   #slide3 { 
+      background: url('C:/Users/ASUS/Desktop/Express/public/images/carousel_large_03.jpg') top left no-repeat ; 
+   }
+}

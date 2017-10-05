@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Adventure Consultants</title>
+
+		<style>
+			body {background-color: aqua}
+		</style>
+
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="C:\Users\ASUS\Desktop\Express\public\stylesheets\bootstrap.min.css" rel="stylesheet">
+		<link href="C:\Users\ASUS\Desktop\Express\public\stylesheets\bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="C:\Users\ASUS\Desktop\Express\public\stylesheets\styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="C:\Users\ASUS\Desktop\Express\public\javascripts\modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+
+				<div class="container">
+
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="#"><img src="C:\Users\ASUS\Desktop\Express\public\images\logo.png" alt="your logo" style="width: 190px; height: 35px; padding-bottom: 6px"></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong> </a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Expeditions</a>
+									</li>
+									<li>
+										<a href="#">Treks</a>
+									</li>
+									<li>
+										<a href="#">Climbing School</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">More Services</li>
+									<li>
+										<a href="#">Skiing</a>
+									</li>
+									<li>
+										<a href="#">Book a private instructor</a>
+									</li>
+								</ul> <!-- End dropdown-menu-->							
+							</li>
+						</ul>
+
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site.." id="searchInput" >			
+							<button type="submit" class="btn btn-default">
+								<span class="glyphicon glyphicon-search" ></span>
+							</button>				
+						</form>
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong> </a>
+
+									<ul class="dropdown-menu">
+										<li>
+										<a href="#"> <span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+									<li>
+										<a href="#"> <span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out</a>
+									</li>
+									</ul>
+
+							</li>
+
+							
+						</ul><!-- End of nav pull-right-->
+
+					</div>
+
+				</div>
+
+			</div> <!--End Navbar-->
+
+
+			<div class="carousel slide" id="myCarousel">
+
+				<!--Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>				
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+
+					<div class="item active" id="slide1">
+
+						<div class="carousel-caption">
+
+							<h4>Climb some of the World's Highest Peaks</h4>
+							<p>We pioneered guided expeditions to Mount Everest and the Seven Summits and believe in running our trips to the highest standards...Life's too short for anything less, right?</p>
+
+						</div><!-- End carousel-caption-->
+
+					</div><!-- End item-->
+
+					<div class="item" id="slide2">
+
+						<div class="carousel-caption">
+
+							<h4>Learning to code a website in 4-hrs</h4>
+							<p>Trying to learn web designing to help give myself a new skill</p>
+
+						</div><!-- End carousel-caption-->
+
+					</div><!-- End item-->
+
+					<div class="item" id="slide3">
+
+						<div class="carousel-caption">
+
+							<h4>Web hosting 101</h4>
+							<p>Learning how to buy a perfect domain package and get my website live on the web with ease</p>
+
+						</div><!-- End carousel-caption-->
+
+					</div><!-- End item-->
+
+				</div><!--end carousel inner-->
+
+				<!--Controls for the carousel -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"> <span class="icon-prev"></span> </a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"> <span class="icon-next"></span> </a>
+
+
+			</div> <!--End myCarousel-->
+
+			<div class="row" id="bigCallout">
+
+				<div class="col-12">
+
+
+					<div class="alert alert-success alert-block fade-in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						<h4>The best private expedition comapny in the world!</h4>
+						<p>Adventure Consultants is renowned for the quality of its service and strategy applied to high altitude expedition climbing. Our reputation is attributed to meticulous planning and experienced logistics coordination. We have a philosophy of investing in every expedition to offer our climbers the best possible chance of success. </p>
+
+					</div><!-- End Alert-->
+
+
+						<!-- Visisble only on mobile devices-->	
+						<div class="well well-small visible-sm">
+							<a href="" class="btn btn-large btn-block btn-default"> <span class="glyphicon glyphicon-phone"></span> Give us a call! </a>
+						</div>	<!-- End Well-Small-->
+
+					<div class="well"> 
+
+						<div class="page-header">
+							<h1>Welcome to Adventure Consultants
+							<br>
+							<small>Guided expeditions to the world's highest peaks!</small></h1>					
+						</div><!-- End page-header-->
+
+						<p class="lead">Adventure Consultants is a world-renowned mountain guiding company with a legacy of climbing expeditions to the world's highest peaks, and treks to the more remote corners of the globe.</p>
+						
+						<a href="" class="btn btn-large btn-primary" id="alertMe" >Book a session</a>
+						<a href="" class="btn btn-large btn-link"> Learn more </a>
+					
+					</div> <!-- End well-->
+				
+				</div> <!-- End col-12-->
+
+			</div> <!-- End bigCallout-->
+
+			<div class="row" id="featuresHeading">
+
+				<div class="col-12">
+					<h2>Why us?</h2>
+					<p class="lead">We offer 72 expeditions, treks and wilderness journeys to the Himalaya, Antarctica, Arctic, South America, and the Seven Summits in addition to world class mountaineering guiding services and climbing schools in New Zealand and Europe with our IFMGA / NZMGA mountain guides.<br>Whether you are taking your first steps into the realm of the outdoors, or are a seasoned adventurer, we believe you will find the quality of the experience offered on an Adventure Consultants expedition second to none, and we invite you to contact us to discuss your next adventure.</p>
+				</div>
+
+				
+			</div> <!-- End featuresHeading-->
+
+			<div class="row" id="features">
+
+				<div class="col-sm-4 feature">
+					
+					<div class="panel">
+
+						<div class="panel-heading">
+							<h3 class="panel-title"> Expedition </h3>		
+						</div> <!-- End panel heading-->
+						
+							<img src="C:\Users\ASUS\Desktop\Express\public\images\badge_expedition.jpg" alt="Expedition" class="img-circle">
+
+							<p><b>BOOK NOW!</b> Journey into a wild and remote part of the Nepal Himalayas to climb Manaslu (8,163m), the world's eighth-highest mountain. We climb Manaslu on the North-East Face along moderately angled snow slopes before a steep snow arête takes us to the summit for magnificent views across the Himalaya. Manaslu is an ideal expedition for those looking to climb an 8,000er or in preparation for Everest.The climbing route ascends moderate angled snow slopes on the lower reaches with a short steep slope above Camp One. <br> <b>Dates: </b> Sep 3 - Oct 14, 2017</p>
+
+							<a href="" target="_blank" class="btn btn-warning btn-block">Learn More</a>
+
+					</div> <!-- End Panel-->
+
+				</div><!-- End feature-->
+
+								<div class="col-sm-4 feature">
+					
+					<div class="panel">
+
+						<div class="panel-heading">
+							<h3 class="panel-title"> Trek </h3>		
+						</div> <!-- End panel heading-->
+						
+							<img src="C:\Users\ASUS\Desktop\Express\public\images\badge_trek.jpg" alt="Trek" class="img-circle">
+
+							<p><b>BOOK NOW!</b> The stark and barren interior of Mustang is an area of Nepal that is rarely visited and tourist numbers are strictly limited each year to help preserve its uniqueness. On our trek to this Forbidden Kingdom, you can walk alongside or saddle up and ride on trusty steeds through to Lo Monthang, the hub of this tiny Kingdom. Recent trekkers have commented that the trip 'exceeded expectations', so enquire now for your opportunity to experience the history and remnants of the true Tibetan lifestyle for yourself.<br> <b>Dates: </b> Sep 4 - 22, 2017</p>
+
+							<a href="" target="_blank" class="btn btn-warning btn-block">Learn More</a>
+
+					</div> <!-- End Panel-->
+
+				</div><!-- End feature-->
+
+								<div class="col-sm-4 feature">
+					
+					<div class="panel">
+
+						<div class="panel-heading">
+							<h3 class="panel-title"> Course </h3>		
+						</div> <!-- End panel heading-->
+						
+							<img src="C:\Users\ASUS\Desktop\Express\public\images\badge_course.jpg" alt="Course" class="img-circle">
+
+							<p><b>BOOK NOW!</b> Whether you're an aspiring climber with little or no experience, or an experienced alpinist looking to push your skills to a higher level we have a course for you!  Learn the basics on our Chamonix Introductory Mountaineering Course for those new to alpine climbing. Consolidate and learn new skills while you make ascents on our Chamonix Alpine Climbing Course, ideal for climbers looking to broaden their skills. Or extend yourself on our Chamonix Advanced Mountaineering Course for those looking to take their climbing to the next level.  <br> <b>Dates: </b> Jun - Sept 2017</p>
+
+							<a href="" target="_blank" class="btn btn-warning btn-block">Learn More</a>
+
+					</div> <!-- End Panel-->
+
+				</div><!-- End feature-->
+				
+			</div> <!-- End features-->
+
+			<div class="row" id="moreInfo">
+
+				<div class="col-sm-6">
+					<h3>Find us!</h3>
+					<div class="Tabbable">
+
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
+						<li><a href="#tab2" data-toggle="tab">Get in touch</a></li>
+					</ul>
+
+						<div class="tab-content">
+
+							<div class="tab-pane active" id="tab1">
+								<h4> <span class="glyphicon glyphicon-map-marker"></span><small>Come say hi at one of our offices</small></h4>
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.181694764119!2d169.13691261520597!3d-44.69548927909929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa9d54f4def9acf17%3A0x6f468c613498716e!2sAdventure+Consultants!5e0!3m2!1sen!2sin!4v1506060649450" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+								<p>Welcome to our office and homes!! The Adventure Consultants head office is located in the alpine resort town of Wanaka in the South Island of New Zealand. Adventure Consultants Limited is a New Zealand owned and registered business.<br> <b>Our headquarters: </b> <br>20 Brownston Street, Wanaka, NZ 9305 <br>Ph: +64 3 443 8711 <br>email: info@adventure.co.nz <br> <b>Partners</b> American Alpine Institute</p>
+							</div><!-- End tab-pane-->
+
+								<div class="tab-pane " id="tab2">
+
+								<h4>Call us (9:00 AM - 4:00PM) <small class="glyphicon glyphicon-phone"> 9876543210</small> </h4>
+
+								<img src="C:\Users\ASUS\Desktop\Express\public\images\float.jpg" class="thumbnail pull-left" style="margin-right: 8px;">
+
+
+								<p>At the time of enquiry you will receive a comprehensive information pack specific to each trip. This will include expedition notes detailing the itinerary and route description, equipment requirements, training and preparation advice, visa and health requirements and an expedition application form. From this point on our personable and informed administration staff will work with you through the planning stages until you meet your Guide and are welcomed to the expedition.<br>Our familiarity with the places we visit, and our established contacts there, ensure a wonderful cultural experience within countries that have a fascinating history and delightful inhabitants. Our Himalayan and South America climbing expeditions provide an insight to the ancient peoples of these worlds, in addition to an unparalleled mountaineering adventure. Our knowledge of the Antarctic region will unveil the unique aspects of this geographical world of its own.<br>We have guided many climbers in their pursuit of the ‘Seven Summits’ and can offer an expedition package and strategy if you have your sights set on this challenging goal.</p>
+
+								<hr>
+
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up">Modal Window Here</span></a>
+
+									<div class="modal fade-in" id="myModal">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button class="close" data-dismiss="modal">&times;</button>
+													<h4 class="modal-title"> Write us a mesasge </h4>
+												</div> <!--end modal header-->
+													<div class="modal-body">
+														<h4>We want to hear from you!</h4>
+														<p>Adventure Consultants are a dedicated team of guiding professionals with a focus towards excellent logistical preparation and, above all, a passion for the environment in which we work. Our expeditions and treks are operated by companionable world class mountain guides, who offer you adventures that are completed in style; with quality, service and safety, at the forefront.</p>
+
+													<!--<h4>Popovers in this modal</h4>-->	
+														<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="advcnslts@gmail.com" data-content="info@adventureconsultants.com"> Email us </a>
+													<!--<h4>Tooltips can go here</h4>-->
+														<a href="" data-original-title="Tooltip" rel="tooltip"> This link </a> is going to have a tool tip and so is <a href="#" data-original-title="Yay!" rel="tooltip"> this one.</a>
+
+														<hr>
+														<p><small class="text-muted">Please complete this form and hit the "Send message" button. Our staff will then reply to you promptly.</small></p>
+
+														<form class="form-horizontal">
+
+															<div class="form-group">
+																<label class="col-lg-2 control-label" for="inputName">Name</label>					
+																	<div class="col-lg-10">
+																		<input class="form-control" id="inputName" placeholder="Name"  type="text">
+																    </div>										
+															</div>
+
+															<div class="form-group">
+																<label class="col-lg-2 control-label" for="inputEmail">Email</label>					
+																	<div class="col-lg-10">
+																		<input class="form-control" id="inputEmail" placeholder="Email"  type="Email">
+																    </div>										
+															</div>
+
+															<div class="form-group">
+																<label class="col-lg-2 control-label" for="inputMessage">Message</label>					
+																	<div class="col-lg-10">
+																		<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+																		<!--<button class="btn btn-success pull-right" type="submit">Send</button>-->
+																    </div>										
+															</div>
+																												
+														</form> <!--End of Form-->
+													
+													</div> <!--end modal body-->
+														<div class="modal-footer">
+															<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+															<button class="btn btn-primary" type="button">Send Message</button>
+														</div><!-- End modal footer-->
+											</div> <!-- end modal content-->
+										</div><!-- End modal dialog-->
+									</div> <!-- End myModal-->
+									
+								</div> <!-- end tab2 tab-pane-->
+							
+						</div> <!--End tab-content-->
+						
+					</div><!--End Tabbable-->
+
+				</div><!-- End col-sm-6-->
+
+				<div class="col-sm-6">
+					<h3>Company Ethos</h3>
+					<p>Two young and motivated New Zealand mountaineers once decided that it would be a good idea to climb the Seven Summits in seven months, a feat they succeeded in doing in 1990. Those climbers were Rob Hall and Gary Ball.<br>Their quest became a public spectacle and gained national attention when they made a satellite linked phone call from the summit of Mt Everest to broadcast live in prime time news hour on New Zealand television. On their return home they were greeted by public parades. Corporate sponsorship that would fund the remainder of their Seven Summit quest soon followed.</p>
+
+					<!--<h4>Distinguishing Features</h4>-->
+
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Distinguishing Features</h4>
+							<ul>
+								<li>A quality experience through every level of our organisatio</li>
+								<li>World-class internationally qualified mountain guides</li>
+								<li>Small groups to lessen impacts and increase personal satisfaction</li>								
+							</ul>
+						</a>
+
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Our Specialties</h4>
+							<ul>
+								<li>Pioneers of guided expeditions to Mount Everest and the Seven Summits</li>
+								<li>Inspiring range of Himalayan and international expeditions</li>
+								<li>Customised private expeditions for groups and individuals</li>		
+								<li>Polar Expeditions</li>						
+							</ul>
+						</a>						  
+
+					</div> <!--End List Group-->
+					<h5><u>Environment</u></h5>
+					<p><i>As people who live very close to the natural world we are genuinely proactive in minimising our impacts by educating our staff and guests in appropriate techniques to preserve the environment.</i></p>
+				</div><!-- End col-sm-6-->
+
+			</div> <!-- End moreInfo-->
+
+			<hr>
+
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>Our most popular Expeditions</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="C:\Users\ASUS\Desktop\Express\public\images\seven.jpg">
+								<div class="caption">
+									<h3>The Seven Summits</h3>
+									<p>If you want the best platform to launch your next mountain climbing objective, then let us organise your expedition and allow you to be the climber you can be. This Expedition will lead you to: Kilimanjaro-Elbrus-Aconcagua-Vinson Massif-Carstensz Pyramid-Denali/Mt McKinley-Everest.</p>
+									
+									<div class="label label-success price">
+										<span class="glyphicon glyphicon-tag"></span> <sup>$</sup> 110,000
+									</div>
+
+									<p><a href="http://www.adventureconsultants.com/adventure/Expeditions/" class="btn btn-primary btn-small" target="_blank">Book Now</a><a href="http://www.adventureconsultants.com/adventure/Expeditions/" class="btn btn-primary btn-link" target="_blank">Learn more</a></p>									
+								</div> <!-- End caption-->
+							</div><!-- End thumbnail-->
+						</div> <!-- End col-6-->
+
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="C:\Users\ASUS\Desktop\Express\public\images\8000.jpg">
+								<div class="caption">
+									<h3>The 8000m Peaks</h3>
+									<p>We believe that our experience, combined with your enthusiasm and determination, will provide you with the best possible chance of standing on top of one (or many!) of these summits: Everest-Lhotse-Cho Oyu-Dhaulagiri-Gasherbrum 2-Shishapangma.</p>
+									<div class="label label-success price">
+										<span class="glyphicon glyphicon-tag"></span> <sup>$</sup> 80,000
+									</div>
+									<p><a href="http://www.adventureconsultants.com/adventure/Expeditions/" class="btn btn-primary btn-small" target="_blank">Book Now</a><a href="http://www.adventureconsultants.com/adventure/Expeditions/" class="btn btn-primary btn-link" target="_blank">Learn more</a></p>									
+								</div> <!-- End caption-->
+							</div><!-- End thumbnail-->
+						</div> <!-- End col-6-->
+
+					</div> <!-- End thumbnails row-->
+				</div><!-- End col-12-->
+			</div> <!-- End moreCourses -->
+
+		</div> <!-- End Container -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<h6>Copyright &copy; 2017 {Jas Karan Singh}</h6>
+					</div> <!-- End col-sm-2-->
+
+					<div class="col-sm-4">
+							<h6>About Us</h6>
+							<p><i>Adventure Consultants is a world-renowned mountain guiding company with a legacy of climbing expeditions to the world's highest peaks, and wilderness treks to the more remote corners of the globe.</i></p>
+					</div> <!-- End col-sm-4-->
+
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Our History</a></li>
+							<li><a href="#">Contact us</a></li>
+						</ul>
+					</div> <!-- End col-sm-2-->
+
+					<div class="col-sm-2">
+						<h6>Follow us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+						</ul>
+					</div> <!-- End col-sm-2-->
+					<div class="col-sm-2">
+						<h6>Coded with Bootstrap</h6>
+					</div> <!-- End col-sm-2-->
+				</div><!--End Row-->
+			</div><!-- End Container-->
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="C:/Users/ASUS/Desktop/Express/public/javascripts/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="C:\Users\ASUS\Desktop\Express\public\javascripts\bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="C:\Users\ASUS\Desktop\Express\public\javascripts\script.js"></script>
+	
+	</body>
+</html>
+
